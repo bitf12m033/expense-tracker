@@ -15,11 +15,10 @@ function App() {
     <GlobalProvider>
       <Header />
       <div className="container">
-      <Balance />
-      <IncomeExpenses />
-      <TransactionList />
-      <AddTransaction />
-
+        <Balance />
+        <IncomeExpenses />
+        <TransactionList />
+        <AddTransaction />
       </div>
     </GlobalProvider>
   );
